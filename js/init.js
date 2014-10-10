@@ -118,20 +118,7 @@
     });
 
 
-/*----------------------------------------------------*/
-/*	Flexslider
-/*----------------------------------------------------*/
-   $('.flexslider').flexslider({
-      namespace: "flex-",
-      controlsContainer: ".flex-container",
-      animation: 'slide',
-      controlNav: true,
-      directionNav: false,
-      smoothHeight: true,
-      slideshowSpeed: 7000,
-      animationSpeed: 600,
-      randomize: false,
-   });
+
 
 /*----------------------------------------------------*/
 /*	contact form
@@ -152,7 +139,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "http://130.206.79.154/sendEmail.php",
+	      url: "http://130.206.79.154:80/sendEmail.php",
 	      data: data,
 	      success: function(msg) {
 
